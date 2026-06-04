@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - main
+      - kustomize/v1.24.0-est-vmg
 
 permissions: read-all
 

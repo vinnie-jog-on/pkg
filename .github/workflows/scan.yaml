@@ -2,9 +2,9 @@ name: scan
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, 'kustomize/v1.24.0-est-vmg' ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, 'kustomize/v1.24.0-est-vmg' ]
   schedule:
     - cron: '18 10 * * 3'
 
