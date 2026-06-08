@@ -10,9 +10,6 @@ on:
   push:
     branches:
       - kustomize/v1.24.0-est-vmg
-  pull_request:
-    branches:
-      - kustomize/v1.24.0-est-vmg
 
 permissions:
   contents: read
